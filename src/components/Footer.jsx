@@ -32,7 +32,7 @@ const Footer = () => {
                 Contact
               </h2>
               <ul className=" text-white text-[14px] font-light font-made mt-[30px]">
-                <li className="flex gap-[10px] items-center">
+                <li className="flex gap-[10px] items-center mb-4">
                   <IoCallOutline className="text-[20px]" />
                   <h3>+375(44)-777-24-12</h3>
                 </li>
