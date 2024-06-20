@@ -7,9 +7,9 @@ const Footer = () => {
   return (
     <>
       <section id="footer" className=" bg-black pb-[112px]">
-        <div className="max-w-container mx-auto">
-          <div className="grid grid-cols-12 gap-[125px]">
-            <div className=" col-span-4">
+        <div className="max-w-container mx-auto px-3">
+          <div className="grid grid-cols-12 gap-10 sm:gap-20 lg:gap-[125px]">
+            <div className=" lg:col-span-4 col-span-12 sm:col-span-3">
               <img src={footerlogo} alt="" />
               <p className="text-[14px] text-white font-made font-light mt-[26px]">
                 Build strength and confidence at <br /> our gym with
@@ -18,7 +18,7 @@ const Footer = () => {
                 community
               </p>
             </div>
-            <div className=" col-span-4">
+            <div className=" lg:col-span-4 col-span-12 sm:col-span-3">
               <h2 className="text-[18px] text-white font-bold font-made">
                 Address
               </h2>
@@ -27,7 +27,7 @@ const Footer = () => {
                 15
               </p>
             </div>
-            <div className=" col-span-4">
+            <div className=" lg:col-span-4 col-span-12 sm:col-span-3">
               <h2 className="text-[18px] text-white font-bold font-made">
                 Contact
               </h2>

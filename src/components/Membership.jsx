@@ -4,13 +4,13 @@ import { TiTick } from "react-icons/ti";
 const Membership = () => {
   return (
     <div>
-      <section id="membership" className="bg-black pb-[262px]">
-        <div className="max-w-container mx-auto">
-          <h2 className="text-[48px] text-white font-made font-bold text-center mb-[120px]">
+      <section id="membership" className="bg-black lg:pb-[262px] pb-20">
+        <div className="max-w-container mx-auto px-3">
+          <h2 className="lg:text-[48px] text-[30px] text-white font-made font-bold lg:text-center mb-20 lg:mb-[120px]">
             Gym membership
           </h2>
-          <div className=" grid grid-cols-12 gap-24">
-            <div className=" col-span-4">
+          <div className=" grid grid-cols-12 gap-10 lg:gap-24">
+            <div className=" lg:col-span-4 col-span-12 sm:col-span-6">
               <div className="w-[275px] h-[397px] rounded-[10px] bg-[#222222] pt-[20px]">
                 <h2 className="text-white text-[18px] font-made font-bold text-center">
                   Pass ‘Trial’{" "}
@@ -38,7 +38,7 @@ const Membership = () => {
                 </button>
               </div>
             </div>
-            <div className=" col-span-4">
+            <div className=" lg:col-span-4 col-span-12 sm:col-span-6">
               <div className="w-[275px] h-[397px] rounded-[10px] bg-[#222222] pt-[20px]">
                 <h2 className="text-white text-[18px] font-made font-bold text-center">
                   Pass ‘Easy Start’{" "}
@@ -78,7 +78,7 @@ const Membership = () => {
                 </button>
               </div>
             </div>
-            <div className=" col-span-4">
+            <div className=" lg:col-span-4 col-span-12 sm:col-span-6">
               <div className="w-[275px] h-[397px] rounded-[10px] bg-[#222222] pt-[20px]">
                 <h2 className="text-white text-[18px] font-made font-bold text-center">
                   Pass ‘Free Time’{" "}
@@ -113,8 +113,8 @@ const Membership = () => {
               </div>
             </div>
           </div>
-          <div className=" grid grid-cols-12 mt-[68px] gap-24">
-            <div className=" col-span-4">
+          <div className=" grid grid-cols-12 mt-[68px] gap-10 lg:gap-24">
+            <div className=" lg:col-span-4 col-span-12 sm:col-span-6">
               <div className="w-[275px] h-[397px] rounded-[10px] bg-[#222222] pt-[20px]">
                 <h2 className="text-white text-[18px] font-made font-bold text-center">
                 Pass ‘1 Month 24/7’ {" "}
@@ -142,7 +142,7 @@ const Membership = () => {
                 </button>
               </div>
             </div>
-            <div className=" col-span-4">
+            <div className=" lg:col-span-4 col-span-12 sm:col-span-6">
               <div className="w-[275px] h-[397px] rounded-[10px] bg-[#222222] pt-[20px]">
                 <h2 className="text-white text-[18px] font-made font-bold text-center">
                 Pass ‘In Shape (AM)’ {" "}
@@ -182,7 +182,7 @@ const Membership = () => {
                 </button>
               </div>
             </div>
-            <div className=" col-span-4">
+            <div className=" lg:col-span-4 col-span-12 sm:col-span-6">
               <div className="w-[275px] h-[397px] rounded-[10px] bg-[#222222] pt-[20px]">
                 <h2 className="text-white text-[18px] font-made font-bold text-center">
                 Pass ‘In Shape (PM)’ {" "}

@@ -7,13 +7,13 @@ import ifour from "../assets/i4.png";
 const Join = () => {
   return (
     <>
-      <section id="join" className=" bg-black pt-[120px] pb-[130px]">
-        <div className="max-w-container mx-auto">
-          <h2 className="text-[48px] text-white font-medium font-made mb-[80px]">
+      <section id="join" className=" bg-black lg:pt-[120px] pb-20 lg:pb-[130px]">
+        <div className="max-w-container mx-auto px-3">
+          <h2 className="lg:text-[48px] text-[30px] text-white font-medium font-made mb-[80px]">
             Reasons to join
           </h2>
-          <div className=" grid grid-cols-12 ml-[130px]">
-            <div className=" col-span-6">
+          <div className=" flex lg:flex-row justify-between  flex-col gap-10">
+            <div className="">
               <div className="flex gap-[30px] items-center">
                 <img src={ione} alt="img" />
                 <div className="">
@@ -27,7 +27,7 @@ const Join = () => {
                 </div>
               </div>
             </div>
-            <div className=" col-span-6">
+            <div className="">
               <div className="flex gap-[30px] items-center">
                 <img src={ithree} alt="img" />
                 <div className="">
@@ -42,8 +42,8 @@ const Join = () => {
               </div>
             </div>
           </div>
-          <div className=" grid grid-cols-12 mt-[86px] ml-[130px]">
-            <div className=" col-span-6">
+          <div className="flex lg:flex-row flex-col justify-between  lg:mt-[86px] mt-8 gap-10">
+            <div className="">
               <div className="flex gap-[30px] items-center">
                 <img src={itow} alt="img" />
                 <div className="">
@@ -57,7 +57,7 @@ const Join = () => {
                 </div>
               </div>
             </div>
-            <div className=" col-span-6">
+            <div className=" ">
               <div className="flex gap-[30px] items-center">
                 <img src={ifour} alt="img" />
                 <div className="">

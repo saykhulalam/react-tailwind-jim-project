@@ -14,13 +14,13 @@ import { AiOutlineYoutube } from "react-icons/ai";
 const Staf = () => {
   return (
     <>
-      <section id="staf" className="bg-black pb-[259px]">
+      <section id="staf" className="bg-black pb-20 lg:pb-[259px]">
         <div className="max-w-container mx-auto">
-          <h2 className="text-white text-[48px] font-made font-medium text-center mb-[120px]">
+          <h2 className="text-white lg:text-[48px] text-[30px] font-made font-medium lg:text-center lg:mb-[120px] mb-8">
             Trainers staff
           </h2>
-          <div className=" grid grid-cols-12">
-            <div className=" col-span-3">
+          <div className=" grid grid-cols-12 gap-4">
+            <div className=" lg:col-span-3 col-span-12 sm:col-span-6 md:col-span-6">
               <div className="w-[275px] h-[448px] bg-[#222222] rounded-[20px] pt-[22px] pl-[19px]">
                 <img src={staff1} alt="" />
                 <h3 className="text-white font-bold font-made text-[18px] mt-[18px] text-center mb-[19px]">
@@ -39,7 +39,7 @@ const Staf = () => {
                 </div>
               </div>
             </div>
-            <div className=" col-span-3">
+            <div className=" lg:col-span-3 col-span-12 sm:col-span-6 md:col-span-6">
               <div className="w-[275px] h-[448px] bg-[#222222] rounded-[20px] pt-[22px] pl-[19px]">
                 <img src={staff2} alt="" />
                 <h3 className="text-white font-bold font-made text-[18px] mt-[18px] text-center mb-[19px]">
@@ -58,7 +58,7 @@ const Staf = () => {
                 </div>
               </div>
             </div>
-            <div className=" col-span-3">
+            <div className=" lg:col-span-3 col-span-12 sm:col-span-6 md:col-span-6">
               <div className="w-[275px] h-[448px] bg-[#222222] rounded-[20px] pt-[22px] pl-[19px]">
                 <img src={staff3} alt="" />
                 <h3 className="text-white font-bold font-made text-[18px] mt-[18px] text-center mb-[19px]">
@@ -77,7 +77,7 @@ const Staf = () => {
                 </div>
               </div>
             </div>
-            <div className=" col-span-3">
+            <div className=" lg:col-span-3 col-span-12 sm:col-span-6 md:col-span-6">
               <div className="w-[275px] h-[448px] bg-[#222222] rounded-[20px] pt-[22px] pl-[19px]">
                 <img src={staff4} alt="" />
                 <h3 className="text-white font-bold font-made text-[18px] mt-[18px] text-center mb-[19px]">
@@ -97,8 +97,8 @@ const Staf = () => {
               </div>
             </div>
           </div>
-          <div className=" grid grid-cols-12 mt-[20px]">
-            <div className=" col-span-3">
+          <div className=" grid grid-cols-12 gap-4 mt-[20px]">
+            <div className=" lg:col-span-3 col-span-12 sm:col-span-6 md:col-span-6">
               <div className="w-[275px] h-[448px] bg-[#222222] rounded-[20px] pt-[22px] pl-[19px]">
                 <img src={staff5} alt="" />
                 <h3 className="text-white font-bold font-made text-[18px] mt-[18px] text-center mb-[19px]">
@@ -117,7 +117,7 @@ const Staf = () => {
                 </div>
               </div>
             </div>
-            <div className=" col-span-3">
+            <div className=" lg:col-span-3 col-span-12 sm:col-span-6 md:col-span-6">
               <div className="w-[275px] h-[448px] bg-[#222222] rounded-[20px] pt-[22px] pl-[19px]">
                 <img src={staff6} alt="" />
                 <h3 className="text-white font-bold font-made text-[18px] mt-[18px] text-center mb-[19px]">
@@ -136,7 +136,7 @@ const Staf = () => {
                 </div>
               </div>
             </div>
-            <div className=" col-span-3">
+            <div className=" lg:col-span-3 col-span-12 sm:col-span-6 md:col-span-6">
               <div className="w-[275px] h-[448px] bg-[#222222] rounded-[20px] pt-[22px] pl-[19px]">
                 <img src={staff7} alt="" />
                 <h3 className="text-white font-bold font-made text-[18px] mt-[18px] text-center mb-[19px]">
@@ -155,7 +155,7 @@ const Staf = () => {
                 </div>
               </div>
             </div>
-            <div className=" col-span-3">
+            <div className=" lg:col-span-3 col-span-12 sm:col-span-6 md:col-span-6">
               <div className="w-[275px] h-[448px] bg-[#222222] rounded-[20px] pt-[22px] pl-[19px]">
                 <img src={staff8} alt="" />
                 <h3 className="text-white font-bold font-made text-[18px] mt-[18px] text-center mb-[19px]">
